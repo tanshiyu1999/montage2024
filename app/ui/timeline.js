@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 export default function Timeline() {
   return (
-    <div class="bg-red-100">
+    <div className="bg-red-100">
 
       <VerticalTimeline
         lineColor="grey"

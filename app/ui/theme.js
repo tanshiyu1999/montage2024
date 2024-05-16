@@ -2,28 +2,30 @@ import Image from "next/image";
 
 export default function Theme() {
   return (
-    <div class="flex flex-col bg-pink-100 items-center">
-      <h1 class="text-7xl bg-blue-200 ">Theme: Youth in Focus</h1>
+    <div className="flex flex-col items-center">
+      <h1 className="text-7xl bg-blue-200 ">Theme: Youth in Focus</h1>
       <p>lorem </p>
       <p>Longer paragraph</p>
       <br/>
       <p width="">Even Longer</p>
-      <div class="grid grid-cols-3 gap-3 w-9/12 bg-black">
-        <div class="bg-blue-200 flex flex-col items-center p-3">
-          <p>First Prize</p>
+      <div className="grid grid-cols-3 gap-3 w-9/12 bg-pink-100">
+        <div className="bg-blue-200 flex flex-col items-center p-3 rounded ">
+          <p className="text-2xl">First Prize</p>
+          <p className="text-xl">Canon R10 (18-45mm Kit)</p>
           <Image 
-            src="/vercel.svg"
+            src="/first-prize.webp"
             width={300}
             height={300}
             alt="First Place Prize Image"
           />
-          <p>Canon D50 4-Section Go Pro Tripod</p>
-          <p>Worth $1000</p>
+          <p className="text-lg">&</p>
+          <p className="text-base">$50 Cathay Photo Vouchers</p>
+          <p className="text-base">Worth $1609</p>
         </div>
-        <div class="bg-blue-200">
+        <div className="bg-blue-200">
           Second Prize
         </div>
-        <div class="bg-blue-200">
+        <div className="bg-blue-200">
           Third Prize
         </div>
       </div>
