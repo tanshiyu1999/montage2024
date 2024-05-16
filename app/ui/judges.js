@@ -2,23 +2,19 @@ import Image from "next/image";
 
 export default function Judges() {
   return (
-    <div className="relative">
-      <Image 
-        src="/landing.png"
-        layout="responsive"
-        width={0}
-        height={0}
-        className="opacity-100 w-full h-auto brightness-50"
-        alt="First Place Prize Image"
-      />
-      <Image 
-        src="/montage-white.png" // Replace with your overlay image path
-        layout="intrinsic"
-        width={1000}
-        height={100}
-        alt="Overlay Image"
-        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-      />
+    <div>
+      <h1 className="text-7xl">Judges</h1>
+      <div className="grid-cols-3 gap-3 w-9/12 bg-pink-100">
+        <div>
+          Judge Data
+        </div>
+        <div>
+          Judge Data
+        </div>
+        <div>
+          Judge Data
+        </div>
+      </div>
     </div>
   );
 }
