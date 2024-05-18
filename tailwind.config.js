@@ -14,7 +14,10 @@ module.exports = {
       },
       screens: {
         'history-text': '1100px',
-      }
+      },
+      fontSize: {
+        'responsive-7xl': 'clamp(2rem, 5vw + 1rem, 4.5rem)',
+      },
     },
   },
   plugins: [],

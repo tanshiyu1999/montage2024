@@ -4,18 +4,18 @@ import Image from "next/image";
 export default function History() {
   return (
     <div className="flex flex-col items-center my-10">
-      <p className="text-7xl">WE HOST</p>
-      <p className="text-7xl">UNFORGETTABLE</p>
-      <p className="text-7xl">COMPLETITIONS</p> 
-      <p className="text-7xl">HERE AT NUSPS.</p>
+      <p className="text-responsive-7xl">WE HOST</p>
+      <p className="text-responsive-7xl">UNFORGETTABLE</p>
+      <p className="text-responsive-7xl">COMPLETITIONS</p> 
+      <p className="text-responsive-7xl">HERE AT NUSPS.</p>
       <br/>
       <Image 
-        src="/history-1.png"
+        src="/history-2.jpeg"
         width={1200}
         height={1200}
         alt="First Place Prize Image"
       />
-      <h2 className="text-5xl my-10">The Montage Journey</h2>
+      <h2 className="text-5xl my-10 text-center">The Montage Journey</h2>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-9/12 max-w-[1150px] place-items-center">
 
@@ -25,7 +25,7 @@ export default function History() {
           <p className="text-xl" >Since then, Montage has gone from strength to strength, inspiring more aspiring and passionate photographers every year.</p>
         </div>
         <Image 
-          src="/history-2.jpeg"
+          src="/history-1.png"
           width={500}
           height={300}
           alt="First Place Prize Image"

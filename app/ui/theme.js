@@ -5,11 +5,11 @@ import Popup from "reactjs-popup";
 
 export default function Theme() {
   return (
-    <div className="flex flex-col items-center">
-      <h1 className="text-7xl bg-blue-200">Theme: Youth in Focus</h1>
-      <p className="w-[1100px] text-xl m-7 text-center">This competition is for Singaporean citizen and/or currently resides in Singapore, aged between 13 to 25.</p>
+    <div className="flex flex-col items-center my-10">
+      <h1 className="text-7xl">Theme: Youth in Focus</h1>
+      <p className="max-w-[1100px] text-xl m-7 text-center">This competition is for Singaporean citizen and/or currently resides in Singapore, aged between 13 to 25.</p>
       <br/>
-      <p className="w-[1100px] text-xl m-7 text-center">By showcasing powerful and thought-provoking practices through photography, capture images that depict acts of bravery, resilience, or determination in the face of challenges or adversity. Your entry should seek to inspire Singaporeans to step out of their comfort zones, take risks, and document courageous moments in their everyday lives or in the community.</p>
+      <p className="max-w-[1100px] text-xl m-7 text-center">By showcasing powerful and thought-provoking practices through photography, capture images that depict acts of bravery, resilience, or determination in the face of challenges or adversity. Your entry should seek to inspire Singaporeans to step out of their comfort zones, take risks, and document courageous moments in their everyday lives or in the community.</p>
       <div className="flex flex-row flex-wrap min-w-96 max-w-[85%] items-center justify-center">
         <div className="flex flex-col items-center p-3 rounded-xl
           h-[400px] w-96 m-2 bg-yellow-50 shadow shadow-black 
