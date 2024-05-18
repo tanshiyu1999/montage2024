@@ -6,17 +6,21 @@ import Timeline from "./ui/timeline";
 import Faq from "./ui/faq";
 import Judges from "./ui/judges";
 import { metadata } from "./layout";
+import Navbar from "./ui/navbar";
+import Footer from "./ui/footer";
 
 
 
 export default function Home() {
   return (
     <main>
+      <Navbar />
       <Landing />
       <Theme />
       <Judges />
       <Timeline />
       <History />
       <Faq />
+      <Footer />
     </main>
   );}
