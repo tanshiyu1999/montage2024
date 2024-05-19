@@ -2,14 +2,27 @@
 
 import Image from "next/image";
 import Popup from "reactjs-popup";
+import React, { useState } from 'react';
+
 
 export default function Theme() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="flex flex-col items-center my-10">
-      <h1 className="text-7xl">Theme: Youth in Focus</h1>
-      <p className="max-w-[1100px] text-xl m-7 text-center">This competition is for Singaporean citizen and/or currently resides in Singapore, aged between 13 to 25.</p>
+      <h1 className="text-7xl">Perspective: Youth in Focus</h1>
+      <p className="max-w-[1100px] text-xl m-7 text-center">This competition is for Singaporean citizen and/or currently resides in Singapore, aged between 13 to 28.</p>
       <br/>
-      <p className="max-w-[1100px] text-xl m-7 text-center">By showcasing powerful and thought-provoking practices through photography, capture images that depict acts of bravery, resilience, or determination in the face of challenges or adversity. Your entry should seek to inspire Singaporeans to step out of their comfort zones, take risks, and document courageous moments in their everyday lives or in the community.</p>
+      <p className="max-w-[1100px] text-xl m-7 text-center">Montage 2024 aims to amplify the perspectives of young individuals through photography, exploring themes of youth culture, identity, and aspirations. Through our series of workshops, we hope you will pick up useful photography skills and unleash your creative potential in our competition!</p>
       <div className="flex flex-row flex-wrap min-w-96 max-w-[85%] items-center justify-center">
         <div className="flex flex-col items-center p-3 rounded-xl
           h-[400px] w-96 m-2 bg-yellow-50 shadow shadow-black 
@@ -38,7 +51,6 @@ export default function Theme() {
             width={250}
             height={100}
             alt="Second Place Prize Image"
-            
           />
           <p className="text-2xl">&</p>
           <p className="text-xl">$50 Cathay Photo Vouchers</p>
@@ -64,40 +76,60 @@ export default function Theme() {
         </div>
 
       </div>
-      
-      <Popup 
-        trigger={
-          <button 
-            type="button" 
-            className="m-5 w-44 text-white bg-yellow-800 hover:bg-yellow-900 focus:outline-none 
-              focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 
-              me-2 mb-2 dark:bg-yellow-800 dark:hover:bg-yellow-700 dark:focus:ring-yellow-700 dark:border-yellow-700">
-            Register Now
-          </button>
-        } 
-        modal={true}
+
+      {/* Button to open modal */}
+      <button 
+        type="button" 
+        className="m-5 w-44 text-white bg-yellow-800 hover:bg-yellow-900 focus:outline-none 
+          focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 
+          me-2 mb-2 dark:bg-yellow-800 dark:hover:bg-yellow-700 dark:focus:ring-yellow-700 dark:border-yellow-700"
+        onClick={openModal}
       >
-        <div>
-          <h1>How to participate</h1>
-          <ul>
-            <li>
-              <p>This is step 1</p>
-            </li>
-            <li>
-              <p>This is step 1</p>
-            </li>
-            <li>
-              <p>This is step 1</p>
-            </li>
-          </ul>
+        Register Now
+      </button>
 
-          <button>
-            Link to Registration
-          </button>
+      {/* Modal structure */}
+      {isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900 bg-opacity-50">
+          <div className="relative w-full max-w-3xl mx-4 bg-white rounded shadow-lg">
+            {/* Modal header */}
+            <div className="flex items-center justify-between p-4 border-b">
+              <h2 className="text-xl font-semibold">How to Register</h2>
+              <button onClick={closeModal} className="text-gray-500 hover:text-gray-700">&times;</button>
+            </div>
 
-
+            
+            {/* Modal content */}
+            <div className="p-4 overflow-y-auto max-h-96">
+              <h1 className="mb-4">To qualify and have your entry considered valid for Montage 2024, participants must satisfy ALL of the below requirements:</h1>
+              <ol className="list-decimal ml-5">
+                <li className="mb-4">
+                  <p>Be within the age range of 13 and 28 (inclusive) as of 1st Jan 2024</p>
+                </li>
+                <li className="mb-4">
+                  <p>Create an account on the Klick Photography application.</p>
+                </li>
+                <li className="mb-4">
+                  <p>Add #Montage2024 to your Klick post.</p>
+                </li>
+                <li className="mb-4">
+                  <p>Additionally, hashtag all of the following: #NUSPS, #Canon, #CanonSingapore, #CathayPhoto, #nycsg, #ycmsg, and #youngchangemakers.</p>
+                </li>
+                <li className="mb-4">
+                  <p>Ensure you retain the original image file (e.g. camera RAW, DNG, JPEG/JPG file with EXIF data, etc.) and/or film negatives for photos submitted. Shortlisted participants will be required to submit these items for verification purposes.</p>
+                </li>
+                <li className="mb-4">
+                  <p>Klick account used to post the participating work must be public. Your account must be following @NUSPS, @Canon, @CanonSingapore, @CathayPhoto on Klick</p>
+                </li>
+              </ol>
+            </div>
+            {/* Modal footer */}
+            <div className="flex items-center justify-end p-4 border-t">
+              <button onClick={closeModal} className="px-4 py-2 text-white bg-red-400 rounded">Close</button>
+            </div>
+          </div>
         </div>
-      </Popup>
+      )}
     </div>
   );
 }

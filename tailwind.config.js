@@ -18,6 +18,14 @@ module.exports = {
       fontSize: {
         'responsive-7xl': 'clamp(2rem, 5vw + 1rem, 4.5rem)',
       },
+      colors: {
+        montageBlue: 'rgb(var(--light-blue) / <alpha-value>)',
+        motnageBeige: 'rgb(var(--beige) / <alpha-value>)',
+        montageYellow: 'rgb(var(--golden-yellow) / <alpha-value>)',
+        montageOrange: 'rgb(var(--orange) / <alpha-value>)',
+        montageGreen: 'rgb(var(--dark-green) / <alpha-value>)',
+
+      }
     },
   },
   plugins: [],

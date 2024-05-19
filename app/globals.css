@@ -9,6 +9,15 @@
   }
 }
 
+
+:root {
+  --light-blue: 172 207 229;      /* #accfe5 */
+  --beige: 240 231 208;           /* #f0e7d0 */
+  --golden-yellow: 218 156 68;    /* #da9c44 */
+  --orange: 217 96 0;             /* #d96000 */
+  --dark-green: 44 64 24;         /* #2c4018 */
+}
+
 .popup-content {
   width: 90%;
 }

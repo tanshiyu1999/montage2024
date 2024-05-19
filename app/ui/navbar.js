@@ -9,76 +9,52 @@ import { CiMenuFries } from "react-icons/ci";
 
 
 export default function Navbar() {
-  const content = <>
-    <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-red-100 transition z-50">
-      <ul className="text-center text-xl p-20">
-        <Link spy={true} smooth={true} to="Theme">
-          <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Theme</li>
-        </Link>
-        <Link to="Judges">
-          <li>Judges</li>
-        </Link>    
-        <Link to="Timeline">
-          <li>Timeline</li>
-        </Link>    
-        <Link>
-          <li>About</li>
-        </Link>
-        <Link>
-          <li>FAQ</li>
-        </Link>   
-        <Link>
-          <li>Contact</li>
-        </Link>             
-      </ul>
-    </div>
-  </>
 
-  const [click, setClick] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleClick = () => {
-    setClick(!click);
-  }
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
 
   return (
-    <nav>
-      <div className="h-10vh flex justify-between z-50 text-black lg:py-5 px-20 py-4">
-        <div className="flex items-center flex-1">
-          <span className="text-3xl font-bold">Loggo</span>
+    <nav className="bg-gray-800 p-4 fixed w-full top-0 z-10">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="text-white text-2xl">Logo</div>
+        <div className="block lg:hidden">
+          <button
+            onClick={toggleMenu}
+            className="text-white focus:outline-none"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
         </div>
-        <div>
-          <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden"> 
-            <ul className="flex gap-8 mr-16 text-[18px]">
-              <Link spy={true} smooth={true} to="Theme">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hove:border-fuchsia-600 cursor-pointer">Theme</li>
-              </Link>
-              <Link>
-                <li>Theme</li>
-              </Link>
-              <Link>
-                <li>Theme</li>
-              </Link>
-              <Link>
-                <li>Theme</li>
-              </Link>
-              <Link>
-                <li>Theme</li>
-              </Link>
-              <Link>
-                <li>Theme</li>
-              </Link>    
-            </ul>
-          </div>
+        <div
+          className={`w-full lg:flex lg:items-center lg:w-auto transition-transform duration-300 ease-in-out ${
+            isOpen ? 'max-h-screen' : 'max-h-0 overflow-hidden'
+          } lg:max-h-full`}
+        >
+          <ul className="lg:flex lg:space-x-4">
+            <li><a href="#" className="block lg:inline-block text-white p-2">Home</a></li>
+            <li><a href="#" className="block lg:inline-block text-white p-2">About</a></li>
+            <li><a href="#" className="block lg:inline-block text-white p-2">Services</a></li>
+            <li><a href="#" className="block lg:inline-block text-white p-2">Contact</a></li>
+          </ul>
         </div>
-        <div>
-          {click && content}
-        </div>
-        <buton className="block sm:hidden transition" onClick={handleClick}>
-          {click ? <FaTimes /> : <CiMenuFries /> }
-        </buton>
       </div>
-
     </nav>
   );
 }
