@@ -5,116 +5,30 @@ import 'react-vertical-timeline-component/style.min.css';
 
 export default function Timeline() {
   return (
-    <div className="bg-red-100">
+    <div>
+      <h1>The North Pole 2022</h1>
+      <p>The ultimate adventure</p>
 
-      <VerticalTimeline
-        lineColor="grey"
-      >
-        <VerticalTimelineElement
-          visible={true}
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'green', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  red' }}
-          date="2011 - present"
-          dateClassName="text-sky-400"
-          
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff'}}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          visible={true}
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          visible={true}
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          visible={true}
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          visible={true}
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          visible={true}
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          visible={true}
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        
-        
-
-      </VerticalTimeline>
+      <div className="timeline mx-auto my-20 max-w-lg">
+        <div className="checkpoint relative max-w-lg p-5">
+          <div className="border-2 border-gray-600 rounded-lg p-6">
+            <h2>Day 1:</h2>
+            <p className="leading-7">This is the textThis is the textThis is the textThis is the textThis is the textThis is the textThis is the textThis is the text</p>
+          </div>
+        </div>
+        <div className="checkpoint">
+          <div>
+            <h2>Day 2:</h2>
+            <p>This is the text</p>
+          </div>
+        </div>
+        <div className="checkpoint">
+          <div>
+            <h2>Day 3:</h2>
+            <p>This is the text</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
