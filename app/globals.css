@@ -9,6 +9,17 @@
   }
 }
 
+.popup-content {
+  width: 90%;
+}
+
+@media screen and (max-width: 1150px) {
+  .popup-content {
+    width: 90%;
+  }
+}
+
+
 .checkpoint:nth-child(odd) {
   border-left: 3px solid #888;
   padding-left: 3em;

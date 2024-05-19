@@ -10,50 +10,199 @@ export default function Faq() {
     <div className="flex flex-col items-center">
       <h1 className="text-5xl">FAQ Details:</h1>
       <p>In light of the qualitative and quantitative indicators as stated above, NUSPS has constructed a robust Frequently Asked Questions (FAQs) section as follows:</p>
-      <div id="faq-container-holder" className="">
-        
-      </div>
       <div
         className="flex flex-row"
       >
         <Popup 
           trigger={
-            <div 
-              className="cursor-pointer bg-pink-50 m-5"
-            
+            <button 
+              className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold 
+              hover:text-white py-2 px-4 border 
+              border-blue-500 hover:border-transparent rounded
+              w-96"
             >
-              <Image 
-                src="/first-prize.webp"
-                width={250}
-                height={250}
-                alt="First Place Prize Image"
-              />
-              <h1>Competition</h1>
-              <p>Click here to know more about the FAQs related to the competition.</p>
-            </div>
+              Outline Button
+            </button>
           } 
           modal={true}  
         >
-          <div>Popup content here !!</div>
+          <div className="flex flex-col items-start">
+            <h1 className="self-center">FAQ</h1>
+            <hr />
+            <ul>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              var              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answer</p>
+              </li>
+              <li>
+                <h2>Question</h2>
+                <p>Answwwwer</p>
+              </li>
+
+
+            </ul>
+          </div>
         </Popup>
-        <Popup
-          trigger={
-            <div
-              className="cursor-pointer bg-pink-50 m-5"
-            >
-              <Image 
-                src="/first-prize.webp"
-                width={250}
-                height={250}
-                alt="First Place Prize Image"
-              />
-              <h1>Workshops</h1>
-              <p>Click here to learn about the FAQs related to the Workshops.</p>
-            </div>
-          }
-        >
-          <div>Pop content here !!</div>
-        </Popup>
+
+        <dialog data-modal className="">
+          <h1>This is the content in the dialog</h1>
+        </dialog>
       </div>
 
     </div>
