@@ -23,22 +23,7 @@ export default function Judges() {
           </p>
 
           <hr className="w-64 border-t-2 border-black m-1" />
-          <Popup
-            modal={true}
-            trigger={
-              <button
-                type="button"
-                className="text-2xl p-3"
-                
-              >
-                View More
-                
-              </button>
-            }
-          >
-            <div>This is in the pop up</div>
-
-          </Popup>
+          <p className="text-xl cursor-pointer">Learn More!</p>
 
 
         </div>

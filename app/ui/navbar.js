@@ -18,17 +18,22 @@ export default function Navbar() {
 
 
   return (
-    <nav className="bg-yellow-800 p-4 fixed w-full z-50">
+    <nav className="bg-yellow-800 p-1 fixed w-full z-50">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div className="w-full flex justify-between items-center">
-          <div className="text-white text-2xl">Logo</div>
+          <Image
+            width={50}
+            height={50}
+            src="/logo-white.png"
+            alt="NUSPS Logo"
+          />
           <div className="block lg:hidden">
             <button
               onClick={toggleMenu}
               className="text-white focus:outline-none"
             >
               <svg
-                className="w-6 h-6 mt-3"
+                className="w-6 h-6 relative top-[5px]"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

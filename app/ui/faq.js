@@ -5,6 +5,7 @@ import React from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import FaqComp from "./modals/faq-comp";
+import FaqWorkshop from "./modals/faq-workshop";
 
 export default function Faq() {
   return (
@@ -15,6 +16,7 @@ export default function Faq() {
         className="flex flex-row"
       >
         <FaqComp />
+        <FaqWorkshop />
       </div>
 
     </div>
