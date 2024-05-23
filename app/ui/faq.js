@@ -8,9 +8,9 @@ import FaqComp from "./modals/faq-comp";
 
 export default function Faq() {
   return (
-    <div className="flex flex-col items-center">
-      <h1 className="text-5xl">FAQ Details:</h1>
-      <p>In light of the qualitative and quantitative indicators as stated above, NUSPS has constructed a robust Frequently Asked Questions (FAQs) section as follows:</p>
+    <div className="flex flex-col items-center px-5">
+      <h1 className="text-5xl my-3">FAQ Details:</h1>
+      <p className="text-lg">In light of the qualitative and quantitative indicators as stated above, NUSPS has constructed a robust Frequently Asked Questions (FAQs) section as follows:</p>
       <div
         className="flex flex-row"
       >

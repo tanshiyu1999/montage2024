@@ -8,6 +8,7 @@ import Judges from "./ui/judges";
 import { metadata } from "./layout";
 import Navbar from "./ui/navbar";
 import Footer from "./ui/footer";
+import Tac from "./ui/tac";
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
       <Timeline />
       <History />
       <Faq />
+      <Tac />
       <Footer />
     </main>
   );}

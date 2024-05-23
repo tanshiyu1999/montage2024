@@ -29,7 +29,7 @@ export default function FaqComp() {
           me-2 mb-2 dark:bg-yellow-800 dark:hover:bg-yellow-700 dark:focus:ring-yellow-700 dark:border-yellow-700"
         onClick={openModal}
       >
-        Register Now
+        View Q&A
       </button>
 
       {/* Modal structure */}
@@ -81,3 +81,9 @@ export default function FaqComp() {
     </div>
   );
 }
+
+
+
+
+
+

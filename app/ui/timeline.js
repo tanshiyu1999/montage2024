@@ -12,108 +12,138 @@ export default function Timeline() {
       <div className="flex flex-col items-left w-11/12 lg:w-9/12 max-w-[1200px]">
         <h1 className="self-center text-7xl m-10">Timeline</h1>
         <div 
-          className="card-container grid grid-cols-1 xl:grid-cols-5 place-items-center my-2
-            bg-yellow-50 shadow shadow-black rounded-md pt-5"
+          className="card-container grid grid-cols-1 xl:grid-cols-5 place-items-center
+            bg-yellow-50 shadow shadow-black rounded-md pt-5 my-3"
         >
           <div className="col-span-1 flex justify-center items-center mx-10 ">
             <h1 className="text-4xl">24 May</h1>
           </div>
           <div className="col-span-4 m-5 flex flex-col items-center self-center w-9/12">
-            <h1 className="self-start text-2xl">The Beginning of Montage 2024</h1>
-            <p className="self-start">From now til 13 July, you can submit your Montage submission here:</p>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+            <h1 className="self-start text-2xl mb-3">The Beginning of Montage 2024</h1>
+            <Image 
+              src="/montage-opens.jpg"
+              width={750}
+              height={100}
+              alt="Portrait workshop Image"
+            />
+            <p className="self-start text-xl mt-5">From now til 13 July, you can submit your Montage submission here:</p>
+            <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
               Submission
             </button>
           </div>
         </div>
         <div 
           className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
-          bg-yellow-50 shadow shadow-black rounded-md pt-5"
+          bg-yellow-50 shadow shadow-black rounded-md pt-5 my-3"
         >
           <div className="col-span-1 flex justify-center items-center mx-10">
             <h1 className="text-4xl">1 June</h1>
           </div>
           <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
+            <h1 className="self-start text-2xl mb-3">Workshop 1: Portraiture & Lighting</h1>
             <Image 
-              src="/second-prize.webp"
-              width={250}
+              src="/montage-event-1.jpg"
+              width={750}
               height={100}
               alt="Portrait workshop Image"
             />
-            <h1 className="self-start text-2xl">Workshop 1: Portraiture & Lighting</h1>
-            <p className="self-start">This long ass text will be for the portraiturtext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituree and lighting workshop</p>
+            <p className="self-start">Some of the publicity Description of the event.</p>
 
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+            <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
               Sign Up
             </button>
           </div>
         </div>
-        <div className="card-container grid grid-cols-5">
-          <div className="bg-blue-200 col-span-1 flex justify-center items-center mx-10">
+
+        <div 
+          className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
+          bg-yellow-50 shadow shadow-black rounded-md pt-5 my-3"
+        >
+          <div className="col-span-1 flex justify-center items-center mx-10">
             <h1 className="text-4xl">15 June</h1>
           </div>
-          <div className="col-span-4 m-5 flex flex-col items-center">
-            <Image 
-              src="/second-prize.webp"
-              width={250}
+          <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
+            {/* <Image 
+              src="/montage-event-1.jpg"
+              width={750}
               height={100}
               alt="Portrait workshop Image"
-            />
+            /> */}
             <h1 className="self-start text-2xl">Workshop 2: Street Photography</h1>
-            <p className="self-start">This long ass text will be for the portraiturtext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituree and lighting workshop</p>
+            <p className="self-start text-xl mb-3">Details to be announced</p>
 
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+            {/* <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
               Sign Up
-            </button>
+            </button> */}
           </div>
         </div>
-        <div className="card-container grid grid-cols-5">
-          <div className="bg-blue-200 col-span-1 flex justify-center items-center mx-10">
+
+        <div 
+          className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
+          bg-yellow-50 shadow shadow-black rounded-md pt-5 my-3"
+        >
+          <div className="col-span-1 flex justify-center items-center mx-10">
             <h1 className="text-4xl">29 June</h1>
           </div>
-          <div className="col-span-4 m-5 flex flex-col items-center">
-            <Image 
-              src="/second-prize.webp"
-              width={250}
+          <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
+            {/* <Image 
+              src="/montage-event-1.jpg"
+              width={750}
               height={100}
               alt="Portrait workshop Image"
-            />
+            /> */}
             <h1 className="self-start text-2xl">Workshop 3: Landscape Photography for Travel</h1>
-            <p className="self-start">This long ass text will be for the portraiturtext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituree and lighting workshop</p>
+            <p className="self-start text-xl mb-3">Details to be announced</p>
 
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5">
+            {/* <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
               Sign Up
-            </button>
+            </button> */}
           </div>
         </div>
-        <div className="card-container grid grid-cols-5">
-          <div className="bg-blue-200 col-span-1 flex justify-center items-center mx-10">
+
+        <div 
+          className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
+          bg-yellow-50 shadow shadow-black rounded-md pt-5 my-3"
+        >
+          <div className="col-span-1 flex justify-center items-center mx-10">
             <h1 className="text-4xl">13 July</h1>
           </div>
-          <div className="col-span-4 m-5 flex flex-col items-center">
-            <Image 
-              src="/second-prize.webp"
-              width={250}
+          <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
+            {/* <Image 
+              src="/montage-event-1.jpg"
+              width={750}
               height={100}
               alt="Portrait workshop Image"
-            />
+            /> */}
             <h1 className="self-start text-2xl">Submission Close</h1>
-            <p className="self-start">This long ass text will be for the portraiturtext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituree and lighting workshop</p>
+            <p className="self-start text-xl mb-3">Details to be announced</p>
+
+            {/* <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
+              Sign Up
+            </button> */}
           </div>
         </div>
-        <div className="card-container grid grid-cols-5">
-          <div className="bg-blue-200 col-span-1 flex justify-center items-center mx-10">
+
+        <div 
+          className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
+          bg-yellow-50 shadow shadow-black rounded-md pt-5 my-3"
+        >
+          <div className="col-span-1 flex justify-center items-center mx-10">
             <h1 className="text-4xl">27 July</h1>
           </div>
-          <div className="col-span-4 m-5 flex flex-col items-center">
-            <Image 
-              src="/second-prize.webp"
-              width={250}
+          <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
+            {/* <Image 
+              src="/montage-event-1.jpg"
+              width={750}
               height={100}
               alt="Portrait workshop Image"
-            />
-            <h1 className="self-start text-2xl">Prize Presentation Day</h1>
-            <p className="self-start">This long ass text will be for the portraiturtext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituretext will be for the portraituree and lighting workshop</p>
+            /> */}
+            <h1 className="self-start text-2xl">Prize Presentation</h1>
+            <p className="self-start text-xl mb-3">Details to be announced</p>
+
+            {/* <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
+              Sign Up
+            </button> */}
           </div>
         </div>
   

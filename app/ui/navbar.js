@@ -18,7 +18,7 @@ export default function Navbar() {
 
 
   return (
-    <nav className="bg-gray-800 p-4 fixed w-full top-0 z-10">
+    <nav className="bg-gray-800 p-4 fixed w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl">Logo</div>
         <div className="block lg:hidden">
@@ -42,11 +42,7 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
-        <div
-          className={`w-full lg:flex lg:items-center lg:w-auto transition-transform duration-300 ease-in-out ${
-            isOpen ? 'max-h-screen' : 'max-h-0 overflow-hidden'
-          } lg:max-h-full`}
-        >
+        <div className={`w-full ${isOpen ? 'block' : 'hidden'} lg:flex lg:items-center lg:w-auto`}>
           <ul className="lg:flex lg:space-x-4">
             <li><a href="#" className="block lg:inline-block text-white p-2">Home</a></li>
             <li><a href="#" className="block lg:inline-block text-white p-2">About</a></li>
