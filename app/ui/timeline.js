@@ -47,7 +47,7 @@ export default function Timeline() {
               height={100}
               alt="Portrait workshop Image"
             />
-            <p className="self-start">Some of the publicity Description of the event.</p>
+            <p className="self-start text-xl mb-3">Details to be announced</p>
 
             <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
               Sign Up
