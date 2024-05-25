@@ -26,7 +26,7 @@ export default function Timeline() {
               height={100}
               alt="Portrait workshop Image"
             />
-            <p className="self-start text-xl mt-5">From now til 13 July, you can submit your Montage submission here:</p>
+            <p className="self-start text-xl mt-5">From now till 13 July, you can submit your Montage submission here:</p>
             <a href="https://nus.campuslabs.com/engage/submitter/form/start/640898" target="_blank">
               <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
                 Submission
