@@ -12,7 +12,7 @@ export default function Landing() {
         alt="First Place Prize Image"
       />
       <Image 
-        src="/montage-white.png" // Replace with your overlay image path
+        src="/montage2024.jpg" // Replace with your overlay image path
         layout="intrinsic"
         width={1000}
         height={100}
