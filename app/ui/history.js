@@ -6,7 +6,7 @@ export default function History() {
     <div className="flex flex-col items-center my-10">
       <p className="text-responsive-7xl">WE HOST</p>
       <p className="text-responsive-7xl">UNFORGETTABLE</p>
-      <p className="text-responsive-7xl">COMPLETITIONS</p> 
+      <p className="text-responsive-7xl">COMPETITIONS</p> 
       <p className="text-responsive-7xl">HERE AT NUSPS.</p>
       <br/>
       <Image 
