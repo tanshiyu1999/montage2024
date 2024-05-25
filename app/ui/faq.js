@@ -10,7 +10,7 @@ import FaqWorkshop from "./modals/faq-workshop";
 export default function Faq() {
   return (
     <div className="flex flex-col items-center px-5" id="FAQ">
-      <h1 className="text-5xl my-3">FAQ & T&C:</h1>
+      <h1 className="text-5xl my-3">FAQ, T&C and R&R:</h1>
       <p className="max-w-[1100px] text-xl mb-7 mt-5 text-center px-5">In light of the qualitative and quantitative indicators as stated above, NUSPS has constructed a robust Frequently Asked Questions (FAQs), Terms and Conditions (T&C) and Regulations section as follows:</p>
       <div className="flex flex-row flex-wrap min-w-96 max-w-[85%] items-center justify-center">
         <a href="https://montage2024.vercel.app/faq.pdf" target="_blank">
