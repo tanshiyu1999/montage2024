@@ -84,7 +84,7 @@ export default function Theme() {
         </div>
       </div>
 
-      <div className="flex flex-col w-11/12 lg:max-w-[1180px] items-center justify-center bg-yellow-50 shadow shadow-black rounded-xl mt-3 py-4 mx-10">
+      <div className="flex flex-col w-11/12 max-w-96 lg:max-w-[1180px] items-center justify-center bg-yellow-50 shadow shadow-black rounded-xl mt-3 py-4 mx-10">
         <h1 className="text-3xl">Hourable Mentions (x3)</h1>
         
         <div className="grid grid-cols-1 lg:grid-cols-4 w-full place-items-center px-5">
