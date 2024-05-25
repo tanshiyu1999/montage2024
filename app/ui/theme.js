@@ -83,7 +83,7 @@ export default function Theme() {
           <p className="text-2xl">Worth $899</p>
         </div>
       </div>
-      
+
       <div className="flex flex-col min-w-96 max-w-[1180px] items-center justify-center bg-yellow-50 shadow shadow-black rounded-xl mt-3 py-4 mx-10">
         <h1 className="text-3xl">Hourable Mentions (x3)</h1>
         
@@ -144,7 +144,7 @@ export default function Theme() {
               </div>
 
               {/* Modal content */}
-              <div className="p-4 overflow-y-auto max-h-96">
+              <div className="p-4 overflow-y-auto max-h-96 flex flex-col items-center">
                 <h1 className="mb-4">To qualify and have your entry considered valid for Montage 2024, participants must satisfy ALL of the below requirements:</h1>
                 <ol className="list-decimal ml-5">
                   <li className="mb-4">
@@ -166,6 +166,11 @@ export default function Theme() {
                     <p>Klick account used to post the participating work must be public. Your account must be following @NUSPS, @Canon, @CanonSingapore, @CathayPhoto on Klick</p>
                   </li>
                 </ol>
+                <a href="https://nus.campuslabs.com/engage/submitter/form/start/640898" target="_blank">
+                  <button class="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
+                    Submission
+                  </button>
+                </a>
               </div>
 
               {/* Modal footer */}
