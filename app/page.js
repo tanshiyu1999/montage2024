@@ -14,7 +14,7 @@ import Tac from "./ui/tac";
 
 export default function Home() {
   return (
-    <main>
+    <main className="">
       <Navbar />
       <Landing />
       <Theme />

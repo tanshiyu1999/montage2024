@@ -25,15 +25,15 @@ export default function Theme() {
 
   return (
     <div className="flex flex-col items-center my-10" id="Theme">
-      <h1 className="text-7xl px-5">Perspective:</h1>
-      <h1 className="text-7xl px-5">Youth in Focus</h1>
+      <h1 className="text-5xl px-5">Perspective:</h1>
+      <h1 className="text-5xl px-5">Youth in Focus</h1>
 
       <p className="max-w-[1100px] text-xl mt-7 text-center px-5">This competition is for Singaporean citizen and/or currently resides in Singapore, aged between 13 to 28.</p>
       <br/>
       <p className="max-w-[1100px] text-xl mb-7 mt-5 text-center px-5">Montage 2024 aims to amplify the perspectives of young individuals through photography, exploring themes of youth culture, identity, and aspirations. Through our series of workshops, we hope you will pick up useful photography skills and unleash your creative potential in our competition!</p>
-      <div className="flex flex-row flex-wrap min-w-96 max-w-[85%] items-center justify-center">
+      <div className="flex flex-row flex-wrap w-full lg:max-w-[85%] items-center justify-center">
         <div className="flex flex-col items-center p-3 rounded-xl
-          h-[400px] w-96 m-2 bg-yellow-50 shadow shadow-black 
+          h-[400px] w-max-96 m-2 bg-yellow-50 shadow shadow-black 
         ">
           <p className="text-3xl">First Prize</p>
           <p className="text-2xl">Canon R10 (18-45mm Kit)</p>
@@ -50,7 +50,7 @@ export default function Theme() {
         </div>
 
         <div className="flex flex-col items-center p-3 rounded-xl
-          h-[400px] w-96 m-2 bg-yellow-50 shadow shadow-black 
+          h-[400px] w-max-96 m-2 bg-yellow-50 shadow shadow-black 
         ">
           <p className="text-3xl">Second Prize</p>
           <p className="text-2xl">Canon R50 (18-45mm Kit)</p>
@@ -67,7 +67,7 @@ export default function Theme() {
         </div>
 
         <div className="flex flex-col items-center p-3 rounded-xl
-          h-[400px] w-96 m-2 bg-yellow-50 shadow shadow-black 
+          h-[400px] w-max-96 m-2 bg-yellow-50 shadow shadow-black 
         ">
           <p className="text-3xl">Third Prize</p>
           <p className="text-2xl">Canon G7X (Mark ii)</p>
@@ -84,10 +84,10 @@ export default function Theme() {
         </div>
       </div>
 
-      <div className="flex flex-col min-w-96 max-w-[1180px] items-center justify-center bg-yellow-50 shadow shadow-black rounded-xl mt-3 py-4 mx-10">
+      <div className="flex flex-col w-11/12 lg:max-w-[1180px] items-center justify-center bg-yellow-50 shadow shadow-black rounded-xl mt-3 py-4 mx-10">
         <h1 className="text-3xl">Hourable Mentions (x3)</h1>
         
-        <div className="grid grid-cols-1 lg:grid-cols-4 min-w-96 w-full place-items-center px-5">
+        <div className="grid grid-cols-1 lg:grid-cols-4 w-full place-items-center px-5">
           <div className="flex flex-col items-center order-2 lg:order-1">
             <h1 className="text-2xl">Manfrotto</h1>
             <p className="text-xl">Advanced Shoulder Bag M III</p>
@@ -111,7 +111,7 @@ export default function Theme() {
             <p className="text-xl">Compact Action Kit</p>
           </div>
         </div>
-        <hr className="w-64 lg:w-3/4 border-t-2 border-black m-1 my-3" />
+        <hr className="max-w-64 lg:w-3/4 border-t-2 border-black m-1 my-3" />
         <p className="text-2xl">Worth $218</p>
       </div>
 

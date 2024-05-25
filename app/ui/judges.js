@@ -7,9 +7,9 @@ export default function Judges() {
   return (
     <div className="flex flex-col items-center" id="Judges">
       <h1 className="text-7xl text-center m-10">Judges</h1>
-      <div className="flex flex-row flex-wrap min-w-96 max-w-[85%] items-center justify-center">
+      <div className="flex flex-row flex-wrap w-full lg:max-w-[85%] items-center justify-center">
         <div className="flex flex-col items-center p-3 rounded-xl
-          h-[400px] w-96 m-2 bg-yellow-50 shadow shadow-black 
+          h-[400px] max-w-96 m-2 bg-yellow-50 shadow shadow-black 
         ">
           <Image 
             src="/jasper.jpg"
@@ -29,7 +29,7 @@ export default function Judges() {
 
         </div>
         <div className="flex flex-col items-center p-3 rounded-xl
-          h-[400px] w-96 m-2 bg-yellow-50 shadow shadow-black 
+          h-[400px] max-w-96 m-2 bg-yellow-50 shadow shadow-black 
         ">
           <Image 
             src="/carlos.png"
@@ -49,7 +49,7 @@ export default function Judges() {
 
         </div>
         <div className="flex flex-col items-center p-3 rounded-xl
-          h-[400px] w-96 m-2 bg-yellow-50 shadow shadow-black 
+          h-[400px] max-w-96 m-2 bg-yellow-50 shadow shadow-black 
         ">
           <Image 
             src="/francis.jpg"
