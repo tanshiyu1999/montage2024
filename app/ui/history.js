@@ -25,7 +25,7 @@ export default function History() {
           <p className="text-xl" >Since then, Montage has gone from strength to strength, inspiring more aspiring and passionate photographers every year.</p>
         </div>
         <Image 
-          src="/history-1.png"
+          src="/history-4.png"
           width={500}
           height={300}
           alt="First Place Prize Image"

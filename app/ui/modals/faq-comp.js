@@ -73,7 +73,7 @@ export default function FaqComp() {
 
             {/* Modal footer */}
             <div className="flex items-center justify-end p-4 border-t">
-              <button onClick={closeModal} className="px-4 py-2 text-white bg-red-400 rounded">Close</button>
+              <button onClick={closeModal} className="px-4 py-2 text-white bg-gray-400 rounded">Close</button>
             </div>
           </div>
         </div>

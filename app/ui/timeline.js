@@ -16,7 +16,7 @@ export default function Timeline() {
             bg-yellow-50 shadow shadow-black rounded-md pt-5 my-3"
         >
           <div className="col-span-1 flex justify-center items-center mx-10 ">
-            <h1 className="text-4xl">24 May</h1>
+            <h1 className="text-4xl">25 May</h1>
           </div>
           <div className="col-span-4 m-5 flex flex-col items-center self-center w-9/12">
             <h1 className="self-start text-2xl mb-3">The Beginning of Montage 2024</h1>
@@ -27,9 +27,12 @@ export default function Timeline() {
               alt="Portrait workshop Image"
             />
             <p className="self-start text-xl mt-5">From now til 13 July, you can submit your Montage submission here:</p>
-            <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
-              Submission
-            </button>
+            <a href="https://nus.campuslabs.com/engage/submitter/form/start/640898" target="_blank">
+              <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
+                Submission
+              </button>
+            </a>
+
           </div>
         </div>
         <div 
@@ -42,16 +45,19 @@ export default function Timeline() {
           <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
             <h1 className="self-start text-2xl mb-3">Workshop 1: Portraiture & Lighting</h1>
             <Image 
-              src="/montage-event-1.jpg"
+              src="/montage-event-1.png"
               width={750}
               height={100}
               alt="Portrait workshop Image"
             />
-            <p className="self-start text-xl mb-3">Details to be announced</p>
+            {/* <p className="self-start text-xl mb-3">Details to be announced</p> */}
 
-            <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
-              Sign Up
-            </button>
+            <a href="https://nus.campuslabs.com/engage/submitter/form/start/640774" target="_blank">
+              <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
+                Sign Up
+              </button>
+            </a>
+
           </div>
         </div>
 

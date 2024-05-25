@@ -24,7 +24,7 @@ export default function Theme() {
   };
 
   return (
-    <div className="flex flex-col items-center my-10">
+    <div className="flex flex-col items-center my-10" id="Theme">
       <h1 className="text-7xl px-5">Perspective:</h1>
       <h1 className="text-7xl px-5">Youth in Focus</h1>
 

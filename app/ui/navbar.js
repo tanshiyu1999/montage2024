@@ -52,10 +52,10 @@ export default function Navbar() {
 
         <div className={`w-full ${isOpen ? 'block' : 'hidden'} lg:flex lg:items-center lg:w-auto`}>
           <ul className="lg:flex lg:space-x-4">
-            <li><a href="#" className="block lg:inline-block text-white p-2 text-center">Theme</a></li>
-            <li><a href="#" className="block lg:inline-block text-white p-2 text-center">Judges</a></li>
-            <li><a href="#" className="block lg:inline-block text-white p-2 text-center">Timeline</a></li>
-            <li><a href="#" className="block lg:inline-block text-white p-2 text-center">FAQ</a></li>
+            <li><a href="#Theme" className="block lg:inline-block text-white p-2 text-center">Theme</a></li>
+            <li><a href="#Judges" className="block lg:inline-block text-white p-2 text-center">Judges</a></li>
+            <li><a href="#Timeline" className="block lg:inline-block text-white p-2 text-center">Timeline</a></li>
+            <li><a href="#FAQ" className="block lg:inline-block text-white p-2 text-center">FAQ</a></li>
           </ul>
         </div>
       </div>
