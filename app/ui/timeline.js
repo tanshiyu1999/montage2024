@@ -45,7 +45,7 @@ export default function Timeline() {
           <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
             <h1 className="self-start text-2xl mb-3">Workshop 1: Portraiture & Lighting</h1>
             <Image 
-              src="/montage-event-1.png"
+              src="/13.png"
               width={750}
               height={100}
               alt="Portrait workshop Image"
