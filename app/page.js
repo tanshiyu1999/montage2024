@@ -22,7 +22,6 @@ export default function Home() {
       <Timeline />
       <History />
       <Faq />
-      <Tac />
       <Footer />
     </main>
   );}

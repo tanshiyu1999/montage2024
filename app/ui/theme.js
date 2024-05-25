@@ -82,8 +82,8 @@ export default function Theme() {
           <hr className="w-64 border-t-2 border-black m-1" />
           <p className="text-2xl">Worth $899</p>
         </div>
-
       </div>
+      
       <div className="flex flex-col min-w-96 max-w-[1180px] items-center justify-center bg-yellow-50 shadow shadow-black rounded-xl mt-3 py-4 mx-10">
         <h1 className="text-3xl">Hourable Mentions (x3)</h1>
         
@@ -113,8 +113,6 @@ export default function Theme() {
         </div>
         <hr className="w-64 lg:w-3/4 border-t-2 border-black m-1 my-3" />
         <p className="text-2xl">Worth $218</p>
-        
-
       </div>
 
 
