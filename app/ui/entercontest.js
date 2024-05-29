@@ -12,7 +12,7 @@ export default function EnterContest() {
       </p>
       <div className="p-3 flex flex-col lg:flex-row">
         <a
-          href="https://apps.apple.com/sg/app/klick-photo-sharing/id1673602702"
+          href="https://i.imgur.com/W8MGgXB.jpeg"
           target="_blank">
           <Image
             src="/klick-appstore-qr.jpg"
@@ -23,7 +23,7 @@ export default function EnterContest() {
           />{" "}
         </a>
         <a
-          href="https://play.google.com/store/apps/details?id=sg.klick.android"
+          href="https://i.imgur.com/SYIVLJP.jpeg"
           target="_blank">
           <Image
             src="/klick-playstore-qr.jpg"

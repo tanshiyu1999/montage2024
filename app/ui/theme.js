@@ -126,7 +126,7 @@ export default function Theme() {
             className="order-1 lg:order-2"
           />
           <Image
-            src="/joby.png"
+            src="https://i.imgur.com/g0aMnMJ.png"
             width={300}
             height={300}
             alt="Hourable Mention Prizes"

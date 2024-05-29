@@ -6,7 +6,7 @@ export default function History() {
     <div className="flex flex-col items-center my-1 relative">
       <div className="relative w-full h-[50vh]">
         <Image 
-          src="/MontagePastYearPosters.png"
+          src="https://i.imgur.com/e5doMKT.png"
           layout="fill"
           objectFit="cover"
           className="opacity-100 brightness-50"
