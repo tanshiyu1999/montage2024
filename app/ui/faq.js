@@ -37,7 +37,7 @@ export default function Faq() {
         <div className="flex flex-row justify-center space-x-20 p-3 pb-5">
           <a
             className="text-2xl no-underline hover:underline text-blue-600"
-            href=""
+            href="https://tinyurl.com/montage2024-faqs"
             target="_blank">
             {" "}
             More FAQs here
