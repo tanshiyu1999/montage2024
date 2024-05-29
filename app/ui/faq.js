@@ -5,7 +5,7 @@ import "reactjs-popup/dist/index.css";
 
 export default function Faq() {
   return (
-    <div className="flex flex-col items-center w-full" id="FAQs">
+    <div className="flex flex-col items-center w-full" id="FAQ">
       <div className="flex flex-col items-center w-2/3">
         <hr className="lg:w-4/5 border-2 border-titleGreen mt-8 mb-8 m-1 my-3" />
         <h1 className="text-4xl pb-5 font-eb-garamond font-bold text-titleGreen">FAQs</h1>
