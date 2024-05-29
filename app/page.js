@@ -9,6 +9,7 @@ import { metadata } from "./layout";
 import Navbar from "./ui/navbar";
 import Footer from "./ui/footer";
 import Tac from "./ui/tac";
+import "./main.css"
 
 
 // Images https://imgur.com/a/ctjRBeR
@@ -27,7 +28,7 @@ import Tac from "./ui/tac";
 // <Footer /> YES
 export default function Home() {
   return (
-    <main className="">
+    <main className="mainbkgrd">
       <Navbar />
       <Landing />
       <Theme />
