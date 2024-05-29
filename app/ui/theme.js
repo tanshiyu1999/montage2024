@@ -23,7 +23,7 @@ export default function Theme() {
 
   return (
     <div className="flex flex-col items-center my-10" id="Theme">
-      <h1 className="text-6xl font-bold px-5 lg:max-w-[1100px]">Perspective: Youths in Focus</h1>
+      <h1 className="text-6xl font-bold px-5 lg:max-w-[1100px] font-eb-garamond">Perspective: Youths in Focus</h1>
 
       <p className="max-w-[1100px] text-xl mt-7 text-center px-5">
         NUS Photographic Society's annual Montage photography NUS Photographic
