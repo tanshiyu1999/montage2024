@@ -1,48 +1,50 @@
-'use client'
+"use client";
 
-import Image from "next/image";
-import React from 'react';
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
-import FaqComp from "./modals/faq-comp";
-import FaqWorkshop from "./modals/faq-workshop";
+import React from "react";
+import "reactjs-popup/dist/index.css";
 
 export default function Faq() {
   return (
     <div className="flex flex-col items-center w-full" id="FAQ">
-      <h1 className="text-5xl my-3 px-5">FAQ, T&C and R&R:</h1>
-      <p className="max-w-[1100px] text-xl mb-7 mt-5 text-center px-5">In light of the qualitative and quantitative indicators as stated above, NUSPS has constructed a robust Frequently Asked Questions (FAQs), Terms and Conditions (T&C) and Regulations section as follows:</p>
-      <div className="flex flex-row flex-wrap w-full lg:max-w-[85%] items-center justify-center">
-        <a href="https://docs.google.com/document/d/e/2PACX-1vTO2D7flLa0mNGlo8r13GUa27S1Y0s-NimCO9r8t9zmheeqYjVsv3gGs3xnO_rITe5yqcpf0GmiVVKG/pub" target="_blank">
-          <div className="flex flex-col items-center p-3 rounded-xl
-            h-[200px] max-w-96  m-2 bg-yellow-50 shadow shadow-black 
-            cursor-pointer"
-          >
-            <p className="text-2xl mt-5">Competition & Workshops</p>
-            <p className="text-lg my-5">Click here for the document to learn more about the FAQs related to the competition and workshop</p>
-          </div>
-        </a>
-
-        <a href="https://docs.google.com/document/d/e/2PACX-1vQD1I-r-2T2LWCQm1YLehlp2FTvspvdVA5tqVszD3P9R33LLQ0wCdvCw6LnXVJV_qXPO-hnSzYKFLHw/pub" target="_blank">
-          <div className="flex flex-col items-center p-3 rounded-xl
-            h-[200px] max-w-96 m-2 bg-yellow-50 shadow shadow-black 
-            cursor-pointer"
-          >
-            <p className="text-2xl mt-5">Terms & Conditions</p>
-            <p className="text-lg my-5">Click here for the document to learn more about the T&C related to the competition and workshop</p>
-          </div>
-        </a>
-
-        <a href="https://docs.google.com/document/d/e/2PACX-1vQee291sojT3CZizdnkrv1ZX8_ceh0VMdg4VaC-BUdEKe0V5d3gp1W0QBjG5ub1Yb_4kpJdXxpdhe7r/pub" target="_blank">
-          <div className="flex flex-col items-center p-3 rounded-xl
-            h-[200px] max-w-96 m-2 bg-yellow-50 shadow shadow-black 
-            cursor-pointer"
-          >
-            <p className="text-2xl mt-5">Rules & Regulations</p>
-            <p className="text-lg my-5">Click here for the document to learn more about the Rules & Regulations related to the competition and workshop</p>
-          </div>
-        </a>
+      <div className="flex flex-col items-center w-2/3">
+        <hr className="lg:w-4/5 border-2 border-titleGreen mt-8 mb-8 m-1 my-3" />
+        <h1 className="text-4xl pb-5 font-eb-garamond font-bold text-titleGreen">FAQs</h1>
+        <p className="text-3xl p-3 font-eb-garamond font-bold text-titleGreen">
+          Who can take part in the NUSPS Montage 2024 Competition?
+        </p>
+        <p className="text-xl p-3 text-center">
+          You must be within the age range of 13 and 28 (inclusive) as of 1st
+          Jan 2024. Anyone who has completed all the steps for submission will
+          be considered for NUSPS’ Montage 2024 Competition.
+        </p>
+        <p className="text-3xl p-3 font-eb-garamond font-bold text-titleGreen">
+          Can non-students participate in the workshops and competition? E.g.
+          NSF.
+        </p>
+        <p className="text-xl p-3 text-center">
+          Yes, as long as you are within the age range of 13 and 28 (inclusive)
+          as of 1st Jan 2024.
+        </p>
+        <p className="text-3xl p-3 font-eb-garamond font-bold text-titleGreen">
+          Do I need to pay to join the Montage 2024 Competition?
+        </p>
+        <p className="text-xl p-3 text-center">
+          No, participation in the Montage 2024 Competition is free of charge.
+          Any publicity material that claims otherwise is fraudulent and should
+          be treated as such; do also report such incidents by emailing us at
+          secretary@nusps.org.sg if you come across them!
+        </p>
+        <div className="flex flex-row justify-center space-x-20 p-3 pb-5">
+          <a
+            className="text-2xl no-underline hover:underline text-blue-600"
+            href="https://tinyurl.com/montage2024-faqs"
+            target="_blank">
+            {" "}
+            More FAQs here
+          </a>
+        </div>
+        <hr className="lg:lg:w-4/5 border-2 border-black m-1 my-3" />
       </div>
-
     </div>
-  );}
+  );
+}

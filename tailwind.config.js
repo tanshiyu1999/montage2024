@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'eb-garamond': ['EB Garamond', 'serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -24,6 +27,7 @@ module.exports = {
         montageYellow: 'rgb(var(--golden-yellow) / <alpha-value>)',
         montageOrange: 'rgb(var(--orange) / <alpha-value>)',
         montageGreen: 'rgb(var(--dark-green) / <alpha-value>)',
+        titleGreen: '#2C4018',
 
       }
     },

@@ -3,21 +3,26 @@ import Image from "next/image";
 
 export default function History() {
   return (
-    <div className="flex flex-col items-center my-10">
-      <p className="text-responsive-7xl">WE HOST</p>
-      <p className="text-responsive-7xl">UNFORGETTABLE</p>
-      <p className="text-responsive-7xl">COMPETITIONS</p> 
-      <p className="text-responsive-7xl">HERE AT NUSPS.</p>
-      <br/>
-      <Image 
-        src="https://i.imgur.com/YL3OdJb.jpg"
-        width={1200}
-        height={1200}
-        alt="First Place Prize Image"
-      />
-      <h2 className="text-5xl my-10 text-center">The Montage Journey</h2>
+    <div className="flex flex-col items-center my-1 relative">
+      <div className="relative w-full h-[50vh]">
+        <Image 
+          src="/MontagePastYearPosters.png"
+          layout="fill"
+          objectFit="cover"
+          className="opacity-100 brightness-50"
+          alt="Past Year Poster"
+        />
+        <div className="absolute inset-0 flex justify-center items-center">
+          <h2 className="text-7xl text-white font-bold font-eb-garamond font-bold">The Montage Journey</h2>
+        </div>
+        <div className="absolute inset-0 gradient-overlay"></div>
+        <div className="absolute inset-0 gradient-overlay top-0 bottom-0"></div>
+      </div>
+
+
+      {/* <h2 className="text-5xl my-10 text-center">The Montage Journey</h2> */}
       
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-9/12 max-w-[1150px] place-items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 w-9/12 pt-5 max-w-[1150px] place-items-center">
 
         <div className="max-w-[500px] history-text:max-w-none order-1">
           <p className="text-xl">Since its inception in 1969, NUSPS has held an annual photography competition for the benefit of the local photographic community. Initially known as the International Photographic Salon, it transitioned to its current form, Montage in 1999.</p>
