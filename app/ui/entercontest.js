@@ -7,15 +7,16 @@ export default function EnterContest() {
   return (
     <div className="flex flex-col items-center" id="EnterContest">
       <h1 className="text-4xl font-bold">How to Participate</h1>
-      <p className="text-3xl p-3">
+      <p className="text-xl p-3">
         1. Download and create an account on the Klick Photography App.
       </p>
-      <div className="flex flex-row justify-center space-x-20 p-3">
+      <div className="p-3 flex flex-col lg:flex-row">
         <Image
           src="/klick-appstore-qr.jpg"
           alt="QR Code 1"
           width={300}
           height={300}
+          className="lg:mr-5 mb-5 lg:mb-0"
         />
         <Image
           src="/klick-playstore-qr.jpg"
@@ -24,10 +25,10 @@ export default function EnterContest() {
           height={300}
         />
       </div>
-      <p className="text-3xl p-3">
+      <p className="text-xl p-3">
         2. Post your photo on Klick with the tag #NUSPSMontage2024.
       </p>
-      <p className="text-3xl p-3">
+      <p className="text-xl p-3">
         3. Complete the sign-up form at{" "}
         <a
           className="no-underline hover:underline text-blue-600"
@@ -37,7 +38,7 @@ export default function EnterContest() {
           this link here.
         </a>
       </p>
-      <p className="text-3xl p-3">
+      <p className="text-xl p-3">
         4. Follow @nusps, @canonsingapore, @cathayphoto and @nycsg on Instagram.
       </p>
       <div className="flex flex-row justify-center space-x-20 p-3 pb-5">

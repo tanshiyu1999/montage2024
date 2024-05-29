@@ -6,15 +6,17 @@ export default function History() {
     <div className="flex flex-col items-center my-1 relative">
       <div className="relative w-full h-[50vh]">
         <Image 
-          src="https://i.imgur.com/MevrnAQ.png"
+          src="/MontagePastYearPosters.png"
           layout="fill"
           objectFit="cover"
           className="opacity-100 brightness-50"
-          alt="First Place Prize Image"
+          alt="Past Year Poster"
         />
         <div className="absolute inset-0 flex justify-center items-center">
-          <h2 className="text-5xl text-white font-bold">The Montage Journey</h2>
+          <h2 className="text-5xl text-white font-bold ">The Montage Journey</h2>
         </div>
+        <div className="absolute inset-0 gradient-overlay"></div>
+        <div className="absolute inset-0 gradient-overlay top-0 bottom-0"></div>
       </div>
 
 
