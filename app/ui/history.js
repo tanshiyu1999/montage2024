@@ -13,7 +13,7 @@ export default function History() {
           alt="Past Year Poster"
         />
         <div className="absolute inset-0 flex justify-center items-center">
-          <h2 className="text-5xl text-white font-bold ">The Montage Journey</h2>
+          <h2 className="text-7xl text-white font-bold font-eb-garamond font-bold">The Montage Journey</h2>
         </div>
         <div className="absolute inset-0 gradient-overlay"></div>
         <div className="absolute inset-0 gradient-overlay top-0 bottom-0"></div>

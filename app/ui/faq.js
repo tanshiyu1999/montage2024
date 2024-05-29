@@ -25,7 +25,7 @@ export default function Faq() {
           Yes, as long as you are within the age range of 13 and 28 (inclusive)
           as of 1st Jan 2024.
         </p>
-        <p className="text-2xl p-3 font-bold">
+        <p className="text-3xl p-3 font-eb-garamond font-bold text-titleGreen">
           Do I need to pay to join the Montage 2024 Competition?
         </p>
         <p className="text-xl p-3 text-center">
