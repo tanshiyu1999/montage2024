@@ -34,8 +34,8 @@ export default function Home() {
       <EnterContest />
       <Timeline />
       <Judges />
-      <History /> 
       <Faq />
+      <History /> 
       <Footer />
     </main>
   );}
