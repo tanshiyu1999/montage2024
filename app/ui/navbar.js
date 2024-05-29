@@ -24,7 +24,7 @@ export default function Navbar() {
           <Image
             width={50}
             height={50}
-            src="/logo-white.png"
+            src="https://i.imgur.com/qgUvwa5.png"
             alt="NUSPS Logo"
           />
           <div className="block lg:hidden">

@@ -10,7 +10,7 @@ export default function History() {
       <p className="text-responsive-7xl">HERE AT NUSPS.</p>
       <br/>
       <Image 
-        src="/history-2.jpeg"
+        src="https://i.imgur.com/YL3OdJb.jpg"
         width={1200}
         height={1200}
         alt="First Place Prize Image"
@@ -25,7 +25,7 @@ export default function History() {
           <p className="text-xl" >Since then, Montage has gone from strength to strength, inspiring more aspiring and passionate photographers every year.</p>
         </div>
         <Image 
-          src="/history-4.png"
+          src="https://i.imgur.com/o2vTdBl.png"
           width={500}
           height={300}
           alt="First Place Prize Image"
@@ -33,7 +33,7 @@ export default function History() {
         />
 
         <Image 
-          src="/history-3.png"
+          src="https://i.imgur.com/OdGc9GM.png"
           width={500}
           height={300}
           alt="First Place Prize Image"

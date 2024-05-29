@@ -72,7 +72,7 @@ export default function Theme() {
           <p className="text-3xl">Third Prize</p>
           <p className="text-2xl">Canon G7X (Mark ii)</p>
           <Image 
-            src="/third-prize.png"
+            src="https://i.imgur.com/FJgilEJ.png"
             width={300}
             height={300}
             alt="Third Place Prize Image"
@@ -94,7 +94,7 @@ export default function Theme() {
             <p className="text-xl">Advanced Shoulder Bag M III</p>
           </div>
           <Image 
-            src="/bag.png"
+            src="https://i.imgur.com/q2vpqaz.png"
             width={300}
             height={300}
             alt="Hourable Mention Prizes"
@@ -108,7 +108,7 @@ export default function Theme() {
             className="order-3 lg:order-3"
           />
           <div className="flex flex-col items-center order-4 lg:order-4">
-            <h1 className="text-2xl">Joby</h1>
+            <h1 className="https://i.imgur.com/hPSF1YG.png">Joby</h1>
             <p className="text-xl">Compact Action Kit</p>
           </div>
         </div>

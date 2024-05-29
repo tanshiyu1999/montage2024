@@ -11,7 +11,20 @@ import Footer from "./ui/footer";
 import Tac from "./ui/tac";
 
 
+// Images https://imgur.com/a/ctjRBeR
+// https://imgur.com/a/rVDdZ1a
 
+// https://imgur.com/a/EkQHkU0
+
+// Image updated on
+// <Navbar />
+// <Landing /> YES
+// <Theme /> YES (Other than webg)
+// <Judges /> YES
+// <Timeline /> YES
+// <History /> YES
+// <Faq /> 
+// <Footer /> YES
 export default function Home() {
   return (
     <main className="">
@@ -20,7 +33,7 @@ export default function Home() {
       <Theme />
       <Judges />
       <Timeline />
-      <History />
+      <History /> 
       <Faq />
       <Footer />
     </main>

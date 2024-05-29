@@ -21,7 +21,7 @@ export default function Timeline() {
           <div className="col-span-4 m-5 flex flex-col items-center self-center w-9/12">
             <h1 className="self-start text-2xl mb-3">The Beginning of Montage 2024</h1>
             <Image 
-              src="/montage-opens.jpg"
+              src="https://i.imgur.com/gLelIM1.png"
               width={750}
               height={100}
               alt="Portrait workshop Image"
@@ -45,7 +45,7 @@ export default function Timeline() {
           <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
             <h1 className="self-start text-2xl mb-3">Workshop 1: Portraiture & Lighting</h1>
             <Image 
-              src="/13.png"
+              src="https://i.imgur.com/GuthkTF.png"
               width={750}
               height={100}
               alt="Portrait workshop Image"

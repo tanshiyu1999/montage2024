@@ -4,7 +4,7 @@ export default function Landing() {
   return (
     <div className="relative z-0">
       <Image 
-        src="/landing.png"
+        src="https://i.imgur.com/MevrnAQ.png"
         layout="responsive"
         width={0}
         height={0}
@@ -12,7 +12,7 @@ export default function Landing() {
         alt="First Place Prize Image"
       />
       <Image 
-        src="/montage2024.jpg" // Replace with your overlay image path
+        src="https://i.imgur.com/CPAhDuf.png" // Replace with your overlay image path
         layout="intrinsic"
         width={1000}
         height={100}

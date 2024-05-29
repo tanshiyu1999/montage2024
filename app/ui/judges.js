@@ -12,14 +12,14 @@ export default function Judges() {
           h-[400px] max-w-96 m-2 bg-yellow-50 shadow shadow-black 
         ">
           <Image 
-            src="/jasper.jpg"
+            src="https://i.imgur.com/9xWRkmY.jpg"
             width={175}
             height={300}
             alt="First Place Prize Image"
           />
           <h2 className="text-3xl">Jasper Yu</h2>
           <p className="text-md h-24 px-5">
-            Owner of JYU STUDIO, Jasper is a professional photographer of 11 years with a fine arts background.
+            Founder of JYU STUDIO, Jasper is a professional photographer of 11 years with a fine arts background.
           </p>
 
           <hr className="w-64 border-t-2 border-black m-1" />
@@ -32,7 +32,7 @@ export default function Judges() {
           h-[400px] max-w-96 m-2 bg-yellow-50 shadow shadow-black 
         ">
           <Image 
-            src="/carlos.png"
+            src="https://i.imgur.com/YA0mIb6.png"
             width={160}
             height={175}
             alt="First Place Prize Image"
@@ -52,7 +52,7 @@ export default function Judges() {
           h-[400px] max-w-96 m-2 bg-yellow-50 shadow shadow-black 
         ">
           <Image 
-            src="/francis.jpg"
+            src="https://i.imgur.com/m1556Sf.jpg"
             width={190}
             height={300}
             alt="First Place Prize Image"
