@@ -7,7 +7,7 @@ export default function Timeline() {
     <div>
       <section id="Timeline" className="flex justify-center">
         <div className="flex flex-col items-left w-11/12 lg:w-9/12 max-w-[1200px]">
-          <h1 className="self-center text-5xl mt-4">Workshops</h1>
+          <h1 className="self-center text-5xl mt-4 font-eb-garamond font-bold text-titleGreen">Workshops</h1>
           <div
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
            pt-5 my-1">

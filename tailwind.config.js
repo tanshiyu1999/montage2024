@@ -27,6 +27,7 @@ module.exports = {
         montageYellow: 'rgb(var(--golden-yellow) / <alpha-value>)',
         montageOrange: 'rgb(var(--orange) / <alpha-value>)',
         montageGreen: 'rgb(var(--dark-green) / <alpha-value>)',
+        titleGreen: '#2C4018',
 
       }
     },

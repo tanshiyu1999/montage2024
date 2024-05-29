@@ -6,10 +6,10 @@ import "reactjs-popup/dist/index.css";
 export default function Faq() {
   return (
     <div className="flex flex-col items-center w-full" id="FAQs">
-      <div className="flex flex-col items-center w-3/5">
-        <hr className="lg:w-4/5 border-2 border-black mt-8 mb-8 m-1 my-3" />
-        <h1 className="text-4xl pb-5 font-bold">FAQs</h1>
-        <p className="text-2xl p-3 font-bold">
+      <div className="flex flex-col items-center w-2/3">
+        <hr className="lg:w-4/5 border-2 border-titleGreen mt-8 mb-8 m-1 my-3" />
+        <h1 className="text-4xl pb-5 font-eb-garamond font-bold text-titleGreen">FAQs</h1>
+        <p className="text-3xl p-3 font-eb-garamond font-bold text-titleGreen">
           Who can take part in the NUSPS Montage 2024 Competition?
         </p>
         <p className="text-xl p-3 text-center">
@@ -17,7 +17,7 @@ export default function Faq() {
           Jan 2024. Anyone who has completed all the steps for submission will
           be considered for NUSPS’ Montage 2024 Competition.
         </p>
-        <p className="text-2xl p-3 font-bold">
+        <p className="text-3xl p-3 font-eb-garamond font-bold text-titleGreen">
           Can non-students participate in the workshops and competition? E.g.
           NSF.
         </p>
