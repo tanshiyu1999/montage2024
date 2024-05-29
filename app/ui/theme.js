@@ -33,7 +33,7 @@ export default function Theme() {
       <p className="max-w-[1100px] text-xl mb-7 mt-5 text-center px-5">Montage 2024 aims to amplify the perspectives of young individuals through photography, exploring themes of youth culture, identity, and aspirations. Through our series of workshops, we hope you will pick up useful photography skills and unleash your creative potential in our competition!</p>
       <div className="flex flex-row flex-wrap w-full lg:max-w-[85%] items-center justify-center">
         <div className="flex flex-col items-center p-3 rounded-xl
-          h-[400px] w-max-96 m-2 bg-yellow-50 shadow shadow-black 
+          h-[400px] w-max-96 m-2 bg-yellow-0 
         ">
           <p className="text-3xl">First Prize</p>
           <p className="text-2xl">Canon R10 (18-45mm Kit)</p>
@@ -43,14 +43,14 @@ export default function Theme() {
             height={300}
             alt="First Place Prize Image"
           />
-          <p className="text-2xl">&</p>
+          <p className="text-2xl">+</p>
           <p className="text-xl">$50 Cathay Photo Vouchers</p>
-          <hr className="w-64 border-t-2 border-black m-1" />
+          {/* <hr className="w-64 border-t-2 border-black m-1" /> */}
           <p className="text-2xl">Worth $1609</p>
         </div>
 
         <div className="flex flex-col items-center p-3 rounded-xl
-          h-[400px] w-max-96 m-2 bg-yellow-50 shadow shadow-black 
+          h-[400px] w-max-96 m-2 bg-yellow-0 
         ">
           <p className="text-3xl">Second Prize</p>
           <p className="text-2xl">Canon R50 (18-45mm Kit)</p>
@@ -60,14 +60,14 @@ export default function Theme() {
             height={100}
             alt="Second Place Prize Image"
           />
-          <p className="text-2xl">&</p>
+          <p className="text-2xl">+</p>
           <p className="text-xl">$50 Cathay Photo Vouchers</p>
-          <hr className="w-64 border-t-2 border-black m-1" />
+          {/* <hr className="w-64 border-t-2 border-black m-1" /> */}
           <p className="text-2xl">Worth $1099</p>
         </div>
 
         <div className="flex flex-col items-center p-3 rounded-xl
-          h-[400px] w-max-96 m-2 bg-yellow-50 shadow shadow-black 
+          h-[400px] w-max-96 m-2 bg-yellow-0 
         ">
           <p className="text-3xl">Third Prize</p>
           <p className="text-2xl">Canon G7X (Mark ii)</p>
@@ -77,9 +77,9 @@ export default function Theme() {
             height={300}
             alt="Third Place Prize Image"
           />
-          <p className="text-2xl">&</p>
+          <p className="text-2xl">+</p>
           <p className="text-xl">$50 Cathay Photo Vouchers</p>
-          <hr className="w-64 border-t-2 border-black m-1" />
+          {/* <hr className="w-64 border-t-2 border-black m-1" /> */}
           <p className="text-2xl">Worth $899</p>
         </div>
       </div>
