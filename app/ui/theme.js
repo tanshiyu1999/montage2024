@@ -29,7 +29,7 @@ export default function Theme() {
         NUS Photographic Society's annual Montage photography NUS Photographic
         Society's annual Montage photography competition is back! From their
         spontaneous adventures to the challenges they overcome, we invite you to
-        explore this year's Montage theme "Perspective: Youth in Focus" and
+        explore this year's Montage theme <b>"Perspective: Youth in Focus"</b> and
         showcase how the youth of today are shaping tomorrow!
       </p>
       <br />
@@ -39,13 +39,13 @@ export default function Theme() {
       </p>
       <hr className="lg:w-2/4 border-2 border-black m-1 my-3" />
 
-      <h1 className="text-4xl font-bold">Prizes</h1>
+      <h1 className="text-5xl font-bold font-eb-garamond">Prizes</h1>
       <div className="flex flex-row flex-wrap w-full lg:max-w-[90%] items-center justify-center pb-2">
         <div
           className="flex flex-col items-center p-3 rounded-xl
           h-[400px] w-max-96 m-6 bg-yellow-0 
         ">
-          <p className="text-3xl">Second Prize</p>
+          <p className="text-3xl font-eb-garamond font-bold">Second Prize</p>
           <Image
             src="/second-prize.webp"
             width={250}
@@ -64,7 +64,7 @@ export default function Theme() {
           className="flex flex-col items-center p-3 rounded-xl
           h-[400px] w-max-96 m-2 bg-yellow-0 
         ">
-          <p className="text-3xl">First Prize</p>
+          <p className="text-3xl font-eb-garamond font-bold">First Prize</p>
           <Image
             src="/first-prize.webp"
             width={300}
@@ -83,7 +83,7 @@ export default function Theme() {
           className="flex flex-col items-center p-3 rounded-xl
           h-[400px] w-max-96 m-2 bg-yellow-0
         ">
-          <p className="text-3xl">Third Prize</p>
+          <p className="text-3xl font-eb-garamond font-bold">Third Prize</p>
           <Image
             src="https://i.imgur.com/FJgilEJ.png"
             width={300}
@@ -102,7 +102,7 @@ export default function Theme() {
       <hr className="lg:w-2/4 border-2 border-black m-1 my-3" />
 
       <div className="flex flex-col w-11/12 max-w-96 lg:max-w-[1180px] items-center justify-center bg-yellow-0  rounded-xl mt-10 py-4 mx-10">
-        <h1 className="text-3xl">Honourable Mentions (x3)</h1>
+        <h1 className="text-3xl font-eb-garamond font-bold">Honourable Mentions (x3)</h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 w-full place-items-center px-5">
           <div className="flex flex-col items-center order-2 lg:order-1"></div>

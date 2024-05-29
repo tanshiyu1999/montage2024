@@ -6,7 +6,7 @@ import Popup from "reactjs-popup";
 export default function EnterContest() {
   return (
     <div className="flex flex-col items-center" id="EnterContest">
-      <h1 className="text-4xl font-bold">How to Participate</h1>
+      <h1 className="text-4xl font-bold font-eb-garamond font-bold">How to Participate</h1>
       <p className="text-xl p-3">
         1. Download and create an account on the Klick Photography App.
       </p>
