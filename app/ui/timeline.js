@@ -51,20 +51,20 @@ export default function Timeline() {
 
           <div
             className="card-container grid grid-cols-1 xl:grid-cols-5	place-items-center
-           pt-5 my-3">
-            <div className="col-span-1 flex justify-center items-center mx-10">
+           pt-5 my-1">
+            <div className="col-span-1 flex justify-center items-center mx-5">
               <h1 className="text-4xl">15 June</h1>
             </div>
             <div className="col-span-4 m-5 flex flex-col items-center w-9/12 self-center">
               <h1 className="text-3xl mb-3 font-bold">
                 Street Photography Workshop
               </h1>
-              {/* <Image
-              src="TBA"
-              width={600}
-              height={600}
-              alt="Portrait workshop Image"
-            /> */}
+              <Image
+                src="/workshop2.png"
+                width={600}
+                height={600}
+                alt="Portrait workshop Image"
+              />
               <div className="mt-2">
                 <p>
                   Hit the streets with confidence! This workshop will enhance
@@ -72,15 +72,22 @@ export default function Timeline() {
                   with subjects, ensuring you never miss a shot.
                 </p>
                 <br />
-                <p>Stay tuned for more details.</p>
+                <p className="font-bold">Time</p>
+                <p>09:00 - 12:00 (Session 1)</p>
+                <p>15:00 - 18:00 (Session 2)</p>
+                <br />
+                <p className="font-bold">Reporting Venue</p>
+                <p>NUS Med-Science Library</p>
+                <p className="font-bold">Photowalk Venue</p>
+                <p>City Hall/ Bayfront</p>
               </div>
-              {/* <a
-              href="TBA"
-              target="_blank">
-              <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
-                Sign Up
-              </button>
-            </a> */}
+              <a
+                href="https://nus.campuslabs.com/engage/submitter/form/collectsubmitteridentity/9fef7f56-ea68-47b2-83ac-32375a68b974"
+                target="_blank">
+                <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-5">
+                  Sign Up
+                </button>
+              </a>
             </div>
           </div>
 
